@@ -1,0 +1,21 @@
+<odoo>
+    <menuitem id="menu_pickup_root"
+              name="Waste Management"/>
+
+    <menuitem id="menu_pickup_point"
+              name="Pickup Points"
+              parent="menu_pickup_root"
+              action="action_pickup_points"/>
+
+    <menuitem id="menu_waste_container"
+              name="Waste Container"
+              parent="menu_pickup_root"
+              action="action_waste_container"/>
+
+    <menuitem id="menu_waste_service"
+              name="Waste Service"
+              parent="menu_pickup_root"
+              action="action_waste_service_request"/>
+
+
+</odoo>
